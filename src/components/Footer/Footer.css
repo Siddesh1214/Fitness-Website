@@ -1,0 +1,50 @@
+.footer{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.footer>hr{
+  width: 90%;
+
+  border: 1px solid var(--lightgray);
+}
+
+.cont{
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  justify-content: center;
+}
+
+.cont>img{
+  width: 2rem;
+}
+
+.logo>img{
+  width: 10rem;
+}
+
+.logo{
+  margin-bottom: 7rem;
+}
+.blur-l{
+  bottom: 0;
+  right: 15%;
+  width: 26rem;
+  height: 12rem;
+  filter: blur(200px);
+  background: red;
+}
+.blur-r{
+  bottom: 0;
+  left: 15%;
+  width: 26rem;
+  height: 12rem;
+  filter: blur(200px);
+  background: rgb(255,115,0);
+}
+
